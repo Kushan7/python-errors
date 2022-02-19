@@ -1,0 +1,8 @@
+#The mysql-connector causes problem.
+pip uninstall mysql-connector
+
+#The following may not need but I removed both connector completely.
+pip uninstall mysql-connector-python
+
+#re-install mysql-conenct-python connector.
+pip install mysql-connector-python
